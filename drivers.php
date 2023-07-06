@@ -6,14 +6,16 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
    </head>
 <body>
+<nav>
   <div class="container-fluid" style="background-color: #FF0000;color:white">
     <ul class="nav navbar-nav">
-    <li class="active"><a  href="HomePage.php">Home</a></li>
+      <li class="active"><a  href="HomePage.php">Home</a></li>
       <li><a href="vehicles.php">Vehicles</a></li>
       <li><a href="drivers.php">Drivers</a></li>
+      <li><a href="drivers.php">Logout</a></li>
     </ul>
   </div>
-</nav>
+</nav>  
 <h3 style="text-decoration-line: underline; text-align: center;">Add New Driver</h3>
 
 <div style=" margin: auto;

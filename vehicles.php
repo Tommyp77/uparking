@@ -16,13 +16,16 @@
     </script>
 </head>
 <body>
-    <div class="container-fluid" style="background-color: #FF0000;color:white">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="HomePage.php">Home</a></li>
-            <li><a href="vehicles.php">Vehicles</a></li>
-            <li><a href="drivers.php">Drivers</a></li>
-        </ul>
-    </div>
+    <nav>
+  <div class="container-fluid" style="background-color: #FF0000;color:white">
+    <ul class="nav navbar-nav">
+      <li class="active"><a  href="HomePage.php">Home</a></li>
+      <li><a href="vehicles.php">Vehicles</a></li>
+      <li><a href="drivers.php">Drivers</a></li>
+      <li><a href="drivers.php">Logout</a></li>
+    </ul>
+  </div>
+</nav>  
 
     <h3 style="text-decoration-line: underline; text-align: center;">Add New Vehicle</h3>
 
@@ -81,5 +84,6 @@
             </tr>
         </tbody>
     </table>
+    
 </body>
 </html>

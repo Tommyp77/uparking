@@ -9,12 +9,13 @@
     <header>
         <h1>Welcome to University Parking</h1>
     </header>
+  <nav>
   <div class="container-fluid" style="background-color: #FF0000;color:white">
     <ul class="nav navbar-nav">
       <li class="active"><a  href="#">Home</a></li>
       <li><a href="vehicles.php">Vehicles</a></li>
       <li><a href="drivers.php">Drivers</a></li>
-
+      <li><a href="drivers.php">Logout</a></li>
     </ul>
   </div>
 </nav>  
@@ -23,10 +24,7 @@
   width: 50%;">
         <h3 style="text-decoration-line: underline;">Your Current Vehicles</h3>
         <h3 style="text-decoration-line: underline;">Your Current Permits</h3>
-    </div>
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> University Parking. All rights reserved.</p>
-    </footer>
+</div>
 
 </body>
 </html>

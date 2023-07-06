@@ -60,11 +60,5 @@
 </form>
 </div>
 
-
-  
-    <footer style=" margin: auto;
-  width: 50%;">
-        <p>&copy; <?php echo date("Y"); ?> University Parking. All rights reserved.</p>
-    </footer>
 </body>
 </html>
